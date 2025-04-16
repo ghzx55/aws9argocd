@@ -4,7 +4,7 @@ metadata:
   name: aws9deploy
 spec:
   strategy:
-    type: rollingUpdate
+    type: RollingUpdate
   replicas: 3
   selector:
     matchLabels:
